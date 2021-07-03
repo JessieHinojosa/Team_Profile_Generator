@@ -91,7 +91,6 @@ const createIntern = () => {
         }
     ]).then(({name, id, email, school}) => {
        team.push(new Intern(name, id, email, 'Intern', school))
-       console.log(team)
        actionMenu();  
     }); 
 }
@@ -116,7 +115,12 @@ const actionMenu = () =>  {
                 break;
                 
             case 'Finish Team':
-                generateHtml(team);
+                const htmlTemplate = generateHtml(team);
+                    fs.writeFile('./dist/index.html',  htmlTemplate, err => {
+                        console.log("file created")
+                    })
+                
+           
                 break;
 
             default:
