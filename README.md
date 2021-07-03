@@ -12,7 +12,8 @@
   --------------
   > # Description
   Using Object oriented programming, This application will generate an html page that contains the team members info that the manager inputs into the application.
-  undefined
+  Video Presentation:<br/>
+ [Screencasts Presentation](https://drive.google.com/file/d/1Ro8gmV_D-6ItC1lbZzsSQgL5pLkEp1Mj/view)<br/>
     
   > # Installation
   Pull repository, use npm install to install the dependecies. 
@@ -20,11 +21,6 @@
   > # Usage
   Open the terminal within the application. Run node index and answer the prompted questions. Once the "finish team" action is selected, there will be a index.html file in the "dist" folder. 
     
-  > # License
-   ## ** 
-  &copy;undefined
-  undefined
-
   > # Contribution
   None
 
